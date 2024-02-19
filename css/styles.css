@@ -148,7 +148,7 @@ body {
 
 .container .subscription .btn:hover {
   border-color: white;
-  background-color: var(--grayish-blue);
+  background-color: hsl(215, 5%, 44%);
 }
 
 .container .why_us {
