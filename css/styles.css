@@ -71,7 +71,9 @@ body {
   grid-template-rows: 1fr 1fr;
   width: 700px;
   height: 480px;
-  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15)
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
 }
 
 .container .our_comunity {
@@ -197,6 +199,20 @@ body {
   }
   .container .why_us .list .item {
     font-size: 14px;
+  }
+}
+
+@media (width < 376px) {
+  body {
+    padding: 40px 0;
+  }
+  .container {
+    width: 85%;
+    height: 100%;
+  }
+
+  .container .our_comunity .description {
+    font-size: 13px;
   }
 }
 
