@@ -134,15 +134,21 @@ body {
 
 .container .subscription .btn {
   width: 100%;
-  padding: 12px 0;
+  padding: 11px 0;
   font-size: 18px;
   font-weight: var(--font-weight-bold);
   color: white;
   background-color: var(--bright-yellow);
-  border: none;
+  border: 3px solid var(--bright-yellow);
   border-radius: 5px;
   box-shadow: 2px 8px 10px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container .subscription .btn:hover {
+  border-color: white;
+  background-color: var(--grayish-blue);
 }
 
 .container .why_us {
